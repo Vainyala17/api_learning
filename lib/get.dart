@@ -26,7 +26,7 @@ class User {
 class _HomePageState extends State<HomePage> {
 //Applying get request.
   Future<List<User>> getRequest() async {
-    String url = "https://jsonplaceholder.typicode.com/todos";
+    String url = "https://jsonplaceholder.typicode.com/posts";
     final response = await http.get(
       Uri.parse(url),
       headers: {

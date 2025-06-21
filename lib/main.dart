@@ -4,6 +4,8 @@ import 'package:api_learning/get.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import 'APICalls.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -24,7 +26,8 @@ class _MyAppState extends State<MyApp> {
         primarySwatch: Colors.green,
       ),
 //      home: APICall(),
-        home: HomePage(),
+//      home: HomePage(),
+        home: APICalls(),
     );
   }
 }
